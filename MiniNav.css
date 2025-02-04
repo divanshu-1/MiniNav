@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+.main_box  {
+   background: url("photo.jpg");
+   height: 100vh;
+   background-size: cover;
+}/* Reset default margin and padding for all elements and set the font */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+/* Main container with a full-screen background image */
+.main_box {
+    background: url("photo.jpg"); /* Background image */
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Cover the entire screen */
+}
+
+/* Styling for the menu button (hamburger icon) */
+.btn_one i {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px; /* Aligns the icon vertically */
+    cursor: pointer;
+    transition: all 0.3s linear; /* Smooth animation */
+}
+
+/* Sidebar menu - initially hidden off-screen */
+.sidebar_menu {
+    position: fixed;
+    left: -350px; /* Hidden by default */
+    height: 100vh; /* Full viewport height */
+    width: 300px; /* Sidebar width */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5); /* White shadow for a glowing effect */
+    transition: all 0.3s linear; /* Smooth transition */
+}
+
+/* Logo section inside the sidebar */
+.sidebar_menu .logo {
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5); /* Adds a shadow at the bottom */
+}
+
+/* Styling for the logo text */
+.sidebar_menu .logo a {
+    position: absolute;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Close button inside the sidebar */
+.sidebar_menu .btn_two i {
+    color: grey;
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    left: 273px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.3s linear; /* Smooth transition */
+}
+
+/* Navigation menu inside the sidebar */
+.sidebar_menu .menu {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+/* Styling for menu items */
+.sidebar_menu .menu li {
+    margin: 6px;
+    padding: 14px 20px;
+}
+
+/* Styling for menu icons and links */
+.sidebar_menu .menu i, a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Add spacing between icon and text */
+.sidebar_menu .menu i {
+    padding-right: 8px;
+}
+
+/* Social media section inside the sidebar */
+.sidebar_menu .social_media {
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    left: 25px;
+    bottom: 30px;
+}
+
+/* Styling for social media icons */
+.sidebar_menu .social_media i {
+    padding: 0px 5px;
+    color: white;
+    opacity: 0.5;
+}
+
+/* Hide the checkbox used for toggling sidebar */
+#check {
+    display: none;
+}
+
+/* Hover effect for menu items */
+.sidebar_menu .menu li:hover {
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+/* Hover effect for menu open button */
+.btn_one i:hover {
+    font-size: 40px;
+}
+
+/* Hover effect for close button */
+.btn_two i:hover {
+    font-size: 30px;
+}
+
+/* Hover effect for social media icons */
+.sidebar_menu .social_media i:hover {
+    opacity: 1;
+    transform: scale(1.1); /* Slightly enlarge icons */
+}
+
+/* When the checkbox is checked, show the sidebar */
+#check:checked ~ .sidebar_menu {
+    left: 0;
+}
+
+/* When the checkbox is checked, hide the menu button */
+#check:checked ~ .btn_one {
+    opacity: 0;
+}
+
+.btn_one i {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.sidebar_menu{
+    position: fixed;
+    left: -350px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255,255, 255, .5);
+    transition: all 0.3s linear;
+}
+.sidebar_menu .logo {
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+}
+.sidebar_menu .logo a {
+    position: absolute;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sidebar_menu .btn_two i{
+    color: grey;
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    left: 273px;
+    line-height: 60px;
+    /* opacity: 0; */
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.sidebar_menu .menu {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+.sidebar_menu .menu li{
+    margin: 6px;
+    padding: 14px 20px ;
+}
+.sidebar_menu .menu i,a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sidebar_menu .menu i {
+    padding-right: 8px;
+}
+.sidebar_menu .social_media {
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    left: 25px;
+    bottom: 30px;
+}
+.sidebar_menu .social_media i {
+    padding: 0px  5px ;
+    color: white;
+    opacity: 0.5;
+}
+#check {
+    display: none;
+}
+.sidebar_menu .menu li:hover {
+    box-shadow: 0 0 6px rgba(255,255, 255, .5);
+}
+.btn_one i:hover{
+    font-size: 40px;
+}
+.btn_two i:hover {
+    font-size: 30px;
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+}
+#check:checked ~ .btn_one {
+    opacity: 0;
+}
