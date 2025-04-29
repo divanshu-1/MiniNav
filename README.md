@@ -7,6 +7,11 @@ Features
 ✅ FontAwesome icons for a modern look
 ✅ Lightweight and easy to customize
 ✅ Social media links
+
+Live Demo - https://divanshu-1.github.io/MiniNav/
+
 Tech Stack
 HTML 🏗️
 CSS 🎨
+
+
