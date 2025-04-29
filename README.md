@@ -8,7 +8,7 @@ Features
 ✅ Lightweight and easy to customize
 ✅ Social media links
 
-Live Demo - https://divanshu-1.github.io/MiniNav/
+Live Demo - [MiniNav]https://divanshu-1.github.io/MiniNav/
 
 Tech Stack
 HTML 🏗️
