@@ -10,7 +10,7 @@ Features
 
 Live Demo - [MiniNav](https://divanshu-1.github.io/MiniNav/)
 
-Tech Stack
+Tech Stack-
 HTML 🏗️
 CSS 🎨
 
